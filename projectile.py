@@ -69,13 +69,13 @@ while True:
         print("Not an integer")
 
 for i in range(n):
-  while True:
-    try:
-        z = float(input('Enter angle: '))
-        listz.append(z)
-        break
-    except ValueError:
-        print("Not a float.")
+    while True:
+        try:
+            z = float(input('Enter angle: '))
+            listz.append(z)
+            break
+        except ValueError:
+            print("Not a float.")
 # For each angle to test
 for i in listz:
     # Initial conditions
